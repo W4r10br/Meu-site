@@ -1,0 +1,114 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Cor do fundo*/
+body{
+    background-image: url(https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZMJHK72y3e1rQqQNqfnstGsEL_AR2YJ4cun2R8Gzbkfz4Eqaaes1E84bwUf00Nmgh9EnHihPG2TGB2BuejaXKSPY095RzjvYQ=w1920-h945-rw-v1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Barra de cima*/
+.Barra{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Barra de cima(botãos)*/
+.Barra button{
+    margin: 0 10px 0 10px;
+    width: 110px;
+    height: 100%;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: grey;
+}
+
+/*Transparencia quando o mouse passa em cima*/
+.Barra button:hover{
+    margin: 0 10px 0 10px;
+    width: 120px;
+    height: 100%;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(114, 174, 223);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/*Logo na barra*/
+.Barra button#b1{
+    background-image: url(https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihY3g1nH0glccWFSqMbGHcEZ19P1FGPBVCkQdPoZ6hljRr25FK5hMcqWdXNzHrNRtWiAo4kgnuyDsqQuJwn7DHYxJ1BKczCY4EQ=w1920-h945);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    cursor: default;
+}
+
+.Barra button#b6{
+    border: solid rgb(94, 94, 238);
+}
+
+.Barra button#b7{
+    background-image: url(https://icones.pro/wp-content/uploads/2021/02/instagram-logo-icone4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+}
+
+.Barra button#b8{
+    background-image: url(https://www.steelemazda.com/wp-content/uploads/2019/02/facebook-minimal-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+}
+
+.Texto h1{
+    color: rgb(109, 109, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+.Texto h2{
+    color: rgb(109, 109, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: -80px 0 -80px 0;
+}
+
+.Texto button#b9{
+    margin: 0 10px 0 10px;
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: grey;
+    border: solid rgb(94, 94, 238);
+    margin: 150px 900px 150px 900px;
+}
+
+.Texto button:hover#b9{
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid rgb(94, 94, 238);
+    background-color: rgb(114, 174, 223);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
